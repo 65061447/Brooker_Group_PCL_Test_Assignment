@@ -22,7 +22,7 @@ import {
   Check,
 } from "lucide-react";
 
-export const Route = createFileRoute("/Brooker_Group_PCL_Test_Assignment/")({
+export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "JIB Computer Group | สเปคชัดเจน ราคาโปร่งใส เช็คสต็อกได้ทันที" },
