@@ -8,8 +8,14 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   tanstackStart: {
-    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
-    // nitro/vite builds from this
-    server: { entry: "server" },
+    server: { 
+      entry: "server",
+      preset: "github-pages",
+      baseURL: "/Brooker_Group_PCL_Test_Assignment/" // Tells Nitro the subfolder route
+    },
   },
+  // Nest standard Vite configurations inside this block so TypeScript accepts it
+  vite: {
+    base: "/Brooker_Group_PCL_Test_Assignment/", // Tells Vite where to look for assets
+  }
 });

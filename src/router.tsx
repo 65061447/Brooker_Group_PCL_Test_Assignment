@@ -10,6 +10,7 @@ export const getRouter = () => {
     context: { queryClient },
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
+    basepath: "/Brooker_Group_PCL_Test_Assignment", 
   });
 
   return router;
