@@ -13,6 +13,6 @@ export default defineConfig({
     }
   },
   vite: {
-    base: "/"
+    base: "/Brooker_Group_PCL_Test_Assignment/"
   }
 });
