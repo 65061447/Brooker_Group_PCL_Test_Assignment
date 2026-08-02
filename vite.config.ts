@@ -7,16 +7,6 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
-  tanstackStart: {
-    prerender: {
-      routes: ["/"],
-    },
-    server: { 
-      preset: "github-pages",
-      baseURL: "/Brooker_Group_PCL_Test_Assignment/"
-    },
-  },
-  vite: {
-    base: "/Brooker_Group_PCL_Test_Assignment/", 
-  }
+  tanstackStart: {},
+  vite: {}
 });
