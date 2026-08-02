@@ -11,11 +11,10 @@ export default defineConfig({
     server: { 
       entry: "server",
       preset: "github-pages",
-      baseURL: "/Brooker_Group_PCL_Test_Assignment/" // Tells Nitro the subfolder route
+      baseURL: "/Brooker_Group_PCL_Test_Assignment/"
     },
   },
-  // Nest standard Vite configurations inside this block so TypeScript accepts it
   vite: {
-    base: "/Brooker_Group_PCL_Test_Assignment/", // Tells Vite where to look for assets
+    base: "/Brooker_Group_PCL_Test_Assignment/", 
   }
 });
