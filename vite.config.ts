@@ -10,7 +10,6 @@ export default defineConfig({
   tanstackStart: {
     prerender: {
       routes: ["/"],
-      crawlLinks: true,
     },
     server: { 
       preset: "github-pages",
