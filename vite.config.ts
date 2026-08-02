@@ -6,7 +6,6 @@
 // You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
-
 export default defineConfig({
   tanstackStart: {
     server: {
@@ -14,6 +13,6 @@ export default defineConfig({
     }
   },
   vite: {
-    base: "/Brooker_Group_PCL_Test_Assignment/"
+    base: "/"
   }
 });
